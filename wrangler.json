@@ -1,0 +1,23 @@
+{
+    "name": "nolets",
+    "main": "main.js",
+    "compatibility_date": "2025-03-01",
+    "compatibility_flags": [
+        "nodejs_compat"
+    ],
+    "observability": {
+        "enabled": true
+    },
+    "d1_databases": [
+        {
+            "binding": "database",
+            "database_name": "database-nolet",
+            "database_id": "c8f1aeb0-dbdf-4bbd-bfb6-59feb128e0e5"
+        }
+    ],
+    "vars": {
+        "ALLOW_NEW_DEVICE": "true",
+        "ALLOW_QUERY_NUMS": "true",
+        "ROOT_PATH": "/"
+    }
+}
